@@ -32,3 +32,5 @@ D
 8-hbtn_class.js,9\5\9574447875100bf05fbe99b780871d2a166448de
 =
 9-hoisting.js,8\a\8ad103f20485803fe5907be996cdc5e237be8f39
+9
+	10-car.js,5\a\5aa1930baa1c3c0171218058ecc9f3badadf4dbb
