@@ -22,3 +22,5 @@ D
 3-currency.js,d\5\d5cccdfd16e9d6f32aca241de1c67be6b5133901
 <
 4-pricing.js,1\8\18cd13b29abe23191d31e5f4900d13469fdc48a5
+=
+5-building.js,8\5\855faf21d3c779ba74fa04262a717fe4df33436e
