@@ -18,3 +18,5 @@ D
 1-make_classrooms.js,6\b\6b881c2f4eafce3d5c00548f7044918ec9c456ad
 @
 2-hbtn_course.js,d\3\d33b2f968df9fe2520fc4edec8e4a6cf6e160a16
+=
+3-currency.js,d\5\d5cccdfd16e9d6f32aca241de1c67be6b5133901
