@@ -20,3 +20,5 @@ D
 2-hbtn_course.js,d\3\d33b2f968df9fe2520fc4edec8e4a6cf6e160a16
 =
 3-currency.js,d\5\d5cccdfd16e9d6f32aca241de1c67be6b5133901
+<
+4-pricing.js,1\8\18cd13b29abe23191d31e5f4900d13469fdc48a5
