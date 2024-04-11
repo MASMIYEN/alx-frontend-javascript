@@ -1,35 +1,44 @@
 module.exports = {
   env: {
-    browser: false,
-    es6: true,
-    jest: true,
+    browser: true,
+    es2021: true,
   },
-  extends: [
-    'airbnb-base',
-    'plugin:jest/all',
+  extends: 'airbnb-base',
+  overrides: [
+    {
+      env: {
+        node: true,
+      },
+      files: [
+        '.eslintrc.{js,cjs}',
+      ],
+      parserOptions: {
+        sourceType: 'script',
+      },
+    },
   ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['jest'],
   rules: {
+    'import/extensions': ['error', 'always'],
     'no-console': 'off',
-    'no-shadow': 'off',
-    'no-restricted-syntax': [
-      'error',
-      'LabeledStatement',
-      'WithStatement',
-    ],
+    'no-unused-vars': 'off',
   },
-  overrides:[
-    {
-      files: ['*.js'],
-      excludedFiles: 'babel.config.js',
-    }
-  ]
+};
+module.exports = {
+  parserOptions: {
+    ecmaVersion: 2021, // or the version of ECMAScript you are using
+    sourceType: 'module' // This line is important
+  },
+  plugins: ['import'],
+  rules: {
+    'import/extensions': ['error', {
+      'js': 'never',
+      'jsx': 'never', // If you're using JSX
+      'ts': 'never', // If you're using TypeScript
+      'tsx': 'never' // If you're using TypeScript with JSX
+    }]
+  }
 };
