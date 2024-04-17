@@ -29,3 +29,7 @@ C
 task_5/package.json,a\1\a13c7c12580900c1754c7fd7ada871b66d819491
 <
 .eslintrc.js,d\b\dbc0c31823b8f2e4ed04a397722fed33a67f123f
+>
+task_0/main.js,e\e\eed358fc3040e36f4c2034d6142738ff4a03f24d
+A
+task_0/js/mani.js,c\a\ca058eb537cbd233df3fe8f7ad0943347b57266f
