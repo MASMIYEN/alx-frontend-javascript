@@ -33,3 +33,8 @@ C
 task_0/main.js,e\e\eed358fc3040e36f4c2034d6142738ff4a03f24d
 A
 task_0/js/mani.js,c\a\ca058eb537cbd233df3fe8f7ad0943347b57266f
+A
+task_0/js/main.ts,a\6\a654790583af24f6232f10c56d4d597e39f784a8
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
